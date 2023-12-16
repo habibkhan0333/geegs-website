@@ -1,0 +1,153 @@
+.navBar{
+    height: 80px;
+    background-color: rgb(8, 179, 8);
+    display: inline-block;
+}
+.navBody{
+    width:100%;
+    background-color: rgb(8,  179,  8);
+
+}
+.navBody  h1{
+    display: inline-block;
+
+}  
+.navBar a{
+    margin-left:100px;
+    color:black;
+}
+.hiGeeks{
+    text-align: center;
+    margin-bottom:1px;
+    background-color: black;
+    height: 80px;
+    color: whitesmoke;
+    margin-top: 0px;
+}
+.parentBox{
+    height: 520px;
+    width: 100%;
+    position: relative;
+    background-color: brown;
+
+}
+.childBox1{
+ height: 500px;
+ width: 30%;
+ position: absolute;
+ background-color:black;
+ display: inline-block;
+ box-sizing: border-box;
+ 
+}
+.childBox2{
+    height: 500px;
+    width: 100%;
+    color:white;
+    background-color:black;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.project{
+    height: 630px;
+    background-color: darkgrey;
+    color: black;
+
+
+}
+.project h1{
+    text-align: center;
+    font-size: 40px;
+}
+.project ul li{
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.achievement{
+    height: 500px;
+    background-color:black;
+    color: white;
+}
+.achievement h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+.achievement ul li{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.contact{
+    background-color: grey;
+    height: 700px;
+    position: relative;
+}
+.contactForm{
+    background-color: black;
+    color: white;
+    height:450px ;
+    width: 55%;
+    padding: 30px;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+
+    
+
+}
+.displayInline{
+    display: inline-block;
+}
+.form-control{
+    padding:10px 100px;
+    margin-left: 70px;
+}
+.contactForm div{
+   margin: 20px 0px;
+
+}
+.contactForm div label{
+    font-size: 20px;
+}
+.contact h1{
+text-align: center;
+
+}
+.form-label{
+    width:70px;
+}
+.footerColor{
+    background-color: black;
+    color: green;
+    height: 50px;
+    position: relative;
+}
+.img{
+    background-image: url(image1.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.imgText{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50% ;
+}
+.arrowUp {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.topButton{
+    color: aqua;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
